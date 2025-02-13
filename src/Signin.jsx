@@ -26,7 +26,8 @@ const Signin = React.memo(() => {
             // Replace with your API endpoint
             const response = await axios.post(
                 // `http://localhost:8071/auth/sign-in`,
-                `https://back.vaarat.tech/auth/sign-in`,
+                // `https://back.vaarat.tech/auth/sign-in`,
+                `https://srjprwajp5.execute-api.us-east-1.amazonaws.com/test1/hrms-signin`,
                 { empEmail, empPassword }
             );
 
